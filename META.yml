@@ -21,7 +21,7 @@ no_index:
 provides:
   Task::BeLike::BINGOS:
     file: lib/Task/BeLike/BINGOS.pm
-    version: 1.00
+    version: 1.02
 requires:
   AI::MegaHAL: 0.07
   Acme::CPANAuthors: 0.08
@@ -174,7 +174,6 @@ requires:
   Parse::IRC: 1.14
   Parse::RecDescent: 1.94
   Path::Class: 0.16
-  Perl6::Pugs: 6.002013
   Perl::Critic: 1.098
   Perl::Critic::Deprecated: 1.094
   Perl::MinimumVersion: 1.2
@@ -239,4 +238,4 @@ resources:
   homepage: http://github.com/bingos/perl-task-modules/tree
   license: http://dev.perl.org/licenses/
   repository: git://github.com/bingos/perl-task-modules.git
-version: 1.00
+version: 1.02
