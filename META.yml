@@ -8,7 +8,7 @@ build_requires:
 configure_requires:
   ExtUtils::MakeMaker: 6.42
 distribution_type: module
-generated_by: 'Module::Install version 0.89'
+generated_by: 'Module::Install version 0.91'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -21,7 +21,7 @@ no_index:
 provides:
   Task::BeLike::BINGOS:
     file: lib/Task/BeLike/BINGOS.pm
-    version: 1.02
+    version: 1.04
 requires:
   AI::MegaHAL: 0.07
   Acme::CPANAuthors: 0.08
@@ -205,6 +205,7 @@ requires:
   Test::Pod: 1.26
   Test::Pod::Coverage: 1.08
   Test::Reporter: 1.5203
+  Text::CSV: 1.12
   Text::CSV_XS: 0.65
   Text::Glob: 0.08
   Text::Reform: 1.11
@@ -238,4 +239,4 @@ resources:
   homepage: http://github.com/bingos/perl-task-modules/tree
   license: http://dev.perl.org/licenses/
   repository: git://github.com/bingos/perl-task-modules.git
-version: 1.02
+version: 1.04
